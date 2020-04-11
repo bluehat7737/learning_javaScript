@@ -2,11 +2,11 @@ console.clear();
 
 var carName = "Volvo";
 
-// 1.
+// * 1.
 // string length
 console.log(carName.length);
 
-// 2.
+// * 2.
 // special character
 // var x = "we are the so called "vikings" from the north";
 // this is wrong way to use "" in string to use quotes in string
@@ -25,7 +25,7 @@ console.log(x);
 // \t	Horizontal Tabulator
 // \v	Vertical Tabulator
 
-// 3.
+// * 3.
 // finding a string
 var str = "Please locate where 'locate' occurs!";
 console.log("using indexOf : " + str.indexOf("locate"));
@@ -41,7 +41,7 @@ console.log("using search : " + str.search("locate"));
 // The search() method cannot take a second start position argument.
 // The indexOf() method cannot take powerful search values (regular expressions).
 
-// 4.
+// * 4.
 // Extracting String Parts
 // There are 3 methods for extracting a part of a string:
 
@@ -64,7 +64,7 @@ console.log("using subtracting() : " + str.substring(7, 13));
 console.log("using substr() : " + str.substr(7, 6));
 // The difference is that the second parameter specifies the length of the extracted part.
 
-// 5.
+// * 5.
 // Replacing String Content
 // The replace() method replaces a specified value with another value in a string:
 var rep = str.replace("Banana", "Apple");
@@ -80,7 +80,7 @@ console.log("using replace : " + str);
 
 // To replace all matches, use a regular expression with a /g flag (global match):
 
-// 6.
+// * 6.
 // Converting to Upper and Lower Case
 
 var name = "Anshul";
@@ -90,14 +90,14 @@ console.log("using toUpperCase() : " + upper);
 var lower = name.toLowerCase();
 console.log("using toLowerCase() : " + lower);
 
-// 7.
+// * 7.
 // The concat() Method
 // concat() joins two or more strings:
 var text1 = "Hello";
 var text2 = "World";
 console.log(text1.concat(" ", text2));
 
-// 7.
+// * 8.
 // String.trim()
 // The trim() method removes whitespace from both sides of a string:
 var trim = "   Hello   ";
@@ -106,7 +106,7 @@ console.log("with trim : " + trim.trim());
 // The trim() method is not supported in Internet Explorer 8 or lower.
 // If you need to support IE 8, you can use replace() with a regular expression instead:
 
-// 8.
+// * 9.
 // Extracting String Characters
 // There are 3 methods for extracting string characters:
 // charAt(position)
@@ -118,6 +118,6 @@ console.log("using charAt() : " + char.charAt(0)); //return A
 console.log("using charCodeAt() : " + char.charCodeAt(0)); //return char code of A = 65
 console.log("using property access : " + str[0]);
 
-// 9.
+// * 10.
 // Converting a String to an Array
 // A string can be converted to an array with the split() method:
