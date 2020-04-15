@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonils</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url("bg.jpg");
+            font-family: cursive;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main-box {
+            width: 60%;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .headings {
+            text-align: center;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .info {
+            max-width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .info img,
+        h2,
+        .star {
+            margin-bottom: 10px;
+        }
+
+        .btn-icon {
+            font-size: 40px;
+        }
+
+        .btn {
+            background-color: transparent;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="main-box">
+            <div class="headings">
+                <h3>CLIENTS</h3>
+                <h1>TESTIMONILS</h1>
+            </div>
+            <div class="content">
+                <button class="btn prev"><i class="btn-icon fas fa-chevron-circle-left"></i></button>
+                <div class="info">
+                    <h2 class="customer-name">Anshul</h2>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <p class="customer-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nemo. Error illo quam eum
+                        veritatis iure enim, explicabo quisquam, quidem fugit, asperiores sint architecto perspiciatis
+                        magni tempore omnis cupiditate placeat.
+                    </p>
+                </div>
+                <button class="btn next"><i class="btn-icon fas fa-chevron-circle-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
